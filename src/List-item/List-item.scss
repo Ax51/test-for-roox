@@ -1,0 +1,35 @@
+.person-body {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 7px;
+
+    background-color:#F3F3F3;
+
+    border: none;
+    border-radius: 8px;
+    & p {
+        margin: 0;
+        & span {
+            display: inline-block;
+            margin-right: 7px;
+            color: #A3A3A3;
+        }
+    }
+    & button {
+        position: absolute;
+        bottom:10px;
+        right:10px;
+        background-color:transparent;
+        border: none;
+        color:#4B51EF;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &:hover {
+        outline: 1px solid blue;
+    }
+}

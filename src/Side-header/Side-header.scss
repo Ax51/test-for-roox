@@ -1,0 +1,19 @@
+.sideBar {
+    padding: 20px 20px;
+    background-color: #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    & > h4 {
+        margin:15px 0 10px;
+        font-weight: 400;
+    }
+    & > button {
+        padding: 5px 15px;
+        background-color: #4B51EF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: fit-content;
+    }
+}
